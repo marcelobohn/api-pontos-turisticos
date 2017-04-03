@@ -1,0 +1,12 @@
+{
+  "name": "api-pontos-turisticos",
+  "version": "1.0.0",
+  "description": "API de pontos turísticos",
+  "main": "index.js",
+  "repository": "https://github.com/marcelobohn/api-pontos-turisticos.git",
+  "author": "Marcelo Bohn <marcelo.bohn@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
