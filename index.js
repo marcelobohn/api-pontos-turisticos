@@ -9,8 +9,7 @@ app.server = http.createServer(app);
 let router = express();
 
 router.get('/attractions', function (req, res) {
-  res.send('attractions list');
-  console.log(attraction);
+  res.json(attraction);
 });
 
 router.get('/attractions/:id', function (req, res) {
@@ -27,3 +26,5 @@ app.use('/api', router);
 app.server.listen(3000);
 
 console.log(`Started on port ${app.server.address().port}`);
+
+module.exports = app;
